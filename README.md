@@ -96,7 +96,7 @@ The application should run at `http://127.0.0.1:5000`
 
 ## API Endpoints
 
-### 1️⃣ **User Registration**
+### 1 **User Registration**
 
 - **Method:** `POST`
 - **URL:** `/register`
@@ -119,7 +119,7 @@ The application should run at `http://127.0.0.1:5000`
 
 ---
 
-### 2️⃣ **User Login**
+### 2 **User Login**
 
 - **Method:** `POST`
 - **URL:** `/login`
@@ -142,7 +142,7 @@ The application should run at `http://127.0.0.1:5000`
 
 ---
 
-### 3️⃣ **Create Item**
+### 3 **Create Item**
 
 - **Method:** `POST`
 - **URL:** `/items`
@@ -167,7 +167,7 @@ The application should run at `http://127.0.0.1:5000`
 
 ---
 
-### 4️⃣ **Read All Items**
+### 4 **Read All Items**
 
 - **Method:** `GET`
 - **URL:** `/items`
@@ -176,7 +176,7 @@ The application should run at `http://127.0.0.1:5000`
 
 ---
 
-### 5️⃣ **Read Item by ID**
+### 5 **Read Item by ID**
 
 - **Method:** `GET`
 - **URL:** `/items/<id>`
@@ -185,7 +185,7 @@ The application should run at `http://127.0.0.1:5000`
 
 ---
 
-### 6️⃣ **Update Item**
+### 6 **Update Item**
 
 - **Method:** `PUT`
 - **URL:** `/items/<id>`
@@ -210,7 +210,7 @@ The application should run at `http://127.0.0.1:5000`
 
 ---
 
-### 7️⃣ **Delete Item**
+### 7 **Delete Item**
 
 - **Method:** `DELETE`
 - **URL:** `/items/<id>`
@@ -219,7 +219,7 @@ The application should run at `http://127.0.0.1:5000`
 
 ---
 
-### 8️⃣ **File Upload**
+### 8 **File Upload**
 
 - **Method:** `POST`
 - **URL:** `/upload`
@@ -238,7 +238,7 @@ The application should run at `http://127.0.0.1:5000`
 
 ---
 
-### 9️⃣ **Public Route (No Token Required)**
+### 9 **Public Route (No Token Required)**
 
 - **Method:** `GET`
 - **URL:** `/public`
