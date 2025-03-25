@@ -57,7 +57,7 @@ pip install -r requirements.txt
 /flaskapi
 │
 ├── /app
-│   ├── init.py
+│   ├── __init__.py
 │   ├── auth.py
 │   ├── models.py
 │   ├── config.py
