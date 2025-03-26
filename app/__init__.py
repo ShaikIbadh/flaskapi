@@ -8,10 +8,12 @@ from app.config import Config
 mysql = MySQL()
 jwt = JWTManager()
 
+# Application factory pattern
 def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
-
+    
+# Initialize MySQL and JWT with app context
     mysql.init_app(app)
     jwt.init_app(app)
 
